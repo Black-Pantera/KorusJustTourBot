@@ -22,32 +22,7 @@
       "answerValidationThreshold" : 0.8
     }
   },
-  "intents" : [ {
-    "path" : "/пока",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "priority" : 0
-  }, {
-    "path" : "/привет",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "привет"
-    }, {
-      "text" : "прив"
-    } ],
-    "classificationRules" : {
-      "refs" : [ ]
-    },
-    "patterns" : [ ],
-    "priority" : 0
-  } ],
+  "intents" : [ ],
   "entities" : [ ],
   "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
   "spellerDictionary" : [ ],
